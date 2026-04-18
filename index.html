@@ -3,81 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arepas Samys</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Arepas Deliciosas</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Encabezado con logo -->
     <header>
-        <div class="logo">
-            <img src="logo.png" alt="Logo Arepas Samys">
-            <h1>Arepas Samys</h1>
-        </div>
+        <img src="Logo.png" alt="Logo Arepas sammys" class="logo">
+        <h1>Arepas Deliciosas</h1>
         <nav>
             <ul>
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#menu">Menú</a></li>
-                <li><a href="la calidad y el sabro nos abarca">Nosotros</a></li>
-                <li><a href="Eresbeydi Buitrago ceballos">Contacto</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Sección principal -->
-    <section id="inicio" class="hero">
-        <h2>El auténtico sabor colombiano</h2>
-        <p>Arepas frescas, hechas con amor y tradición.</p>
-        <a href="lacolombiana" class="btn">Ver Menú</a>
+    <!-- Sección inicio -->
+    <section id="inicio">
+        <h2>Bienvenidos</h2>
+        <p>Disfruta de las mejores arepas colombianas hechas con tradición y sabor.</p>
+        <img src="Ladepollo .jpg" alt="Arepa con queso" class="foto">
     </section>
 
-    <!-- Menú -->
+    <!-- Sección menú -->
     <section id="menu">
-        <h2>Menú</h2>
-        <div class="Ladepollo-items">
-            <div class="item">
-                <img src="LaQuesuda.jpg" alt="Arepa de Queso">
-                <h3>Arepa de Queso</h3>
-                <p>Suave y rellena de queso fundido y carrnes mixtas.</p>
-                <span>$5.000</span>
-            </div>
-            <div class="item">
-                <img src="lapicantona.jpg" alt="Arepa de Carne">
-                <h3>Arepa de carne y picante </h3>
-                <p>Rellena con carne jugosa y sazonada.</p>
-                <span>$7.000</span>
-            </div>
-            <div class="item">
-                <img src="Ladepollo .jpg" alt="Arepa Mixta">
-                <h3>Arepa Mixta</h3>
-                <p>Queso y carne y pollo  en una combinación perfecta.</p>
-                <span>$8.000</span>
-            </div>
+        <h2>Nuestro Menú</h2>
+        <div class="menu-item">
+            <img src="lapicantona.jpg" alt="Arepa rellena de carne" class="foto">
+            <p>Arepa rellena de carne</p>
         </div>
+        <div class="menu-item">
+            <img src="LaQuesuda.jpg" alt="Arepa de choclo" class="foto">
+            <p>Arepa de choclo con queso</p>
+        </div>
+        <div class="menu-item">
+            <img src="lacolombiana.jpg" alt="Arepa mix" class="foto">
+            <p>Arepa mix carnes y verduras</p>
     </section>
 
-    <!-- Nosotros -->
+    <!-- Sección nosotros -->
     <section id="nosotros">
         <h2>Sobre Nosotros</h2>
-        <p>Somos apasionados por la tradición colombiana y queremos compartir el sabor de nuestras arepas con el mundo.</p>
+        <p>Somos una familia apasionada por compartir la tradición de las arepas con el mundo.</p>
     </section>
 
-    <!-- Contacto -->
-    <section id="Eresbeydi Buitrago">
-        <h2>Contacto</h2>
+    <!-- Sección contacto -->
+    <section id="contacto">
+        <h2>Contáctanos</h2>
         <form>
-            <label for="nombre">Nombre:</label>
+            <label for="Eresbeydi buitrago">Nombre:</label>
             <input type="text" id="nombre" name="nombre" required>
-
+            
             <label for="mensaje">Mensaje:</label>
             <textarea id="mensaje" name="mensaje" required></textarea>
-
+            
             <button type="submit">Enviar</button>
         </form>
     </section>
 
-    <!-- Footer -->
     <footer>
-        <p>&copy; 2026 Arepas La Tradición - Todos los derechos reservados</p>
+        <p>&copy; 2026 Arepas Deliciosas</p>
     </footer>
 </body>
 </html>
